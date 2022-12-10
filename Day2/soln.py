@@ -21,7 +21,7 @@ def readFile(filePath):
         filePath (string): the filename for the inputs
 
     Returns:
-        list: a list of integer and "#" as delimiters
+        list: a list of strings
     """
     with open(filePath) as f:
         lines = f.readlines()
