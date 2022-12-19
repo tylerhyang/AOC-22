@@ -1,6 +1,3 @@
-from os import getpriority
-
-
 def main():
     inputs = readFile("input.txt")
     inputs1 = clean(inputs)
